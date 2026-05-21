@@ -10,7 +10,7 @@ class Solution {
 
         while (left <= right){
 
-            mid = left + (right - left) / 2;
+            mid = (left + right) / 2;
 
             long square =  mid * mid;
 
